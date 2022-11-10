@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "2cb8c18e-dbe7-4198-90c2-21bef4986caf",
+		"name": "localhost:8081",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18160855"
+	},
+	"item": [
+		{
+			"name": "/process",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"user_1\":100,\n    \"user_2\":300,\n    \"user_3\":310,\n    \"user_4\":320,\n    \"user_5\":100\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/process",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"process"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
